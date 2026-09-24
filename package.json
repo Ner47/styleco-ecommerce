@@ -1,0 +1,17 @@
+{
+  "name": "styleco-ecommerce",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Ner47/styleco-ecommerce#readme",
+  "bugs": {
+    "url": "https://github.com/Ner47/styleco-ecommerce/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ner47/styleco-ecommerce.git"
+  },
+  "license": "ISC",
+  "author": "Ner47",
+  "scripts": {
+    "dev:b": "cd backend && npm run dev"
+  }
+}
