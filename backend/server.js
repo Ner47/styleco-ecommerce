@@ -1,17 +1,6 @@
-const express = require("express");
-const dotenv = require("dotenv");
+import app from "./src/app.js";
+import { env } from "./src/config/env.js";
 
-dotenv.config();
-
-const app = express();
-const port = process.env.PORT;
-
-app.get("/", (req, res) => {
-  res.send({
-    "message": "E-commerce API",
-  });
-});
-
-app.listen(port, () => {
-  console.log(`Backend app listening on port ${port}`);
+app.listen(env.PORT, () => {
+  console.log(`Server running on port ${env.PORT}`);
 });
