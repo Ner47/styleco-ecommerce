@@ -4,4 +4,5 @@ dotenv.config();
 
 export const env = {
   PORT: process.env.PORT || 5000,
+  CLIENT_URL: "http://localhost:4000/",
 };
